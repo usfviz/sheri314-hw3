@@ -1,4 +1,4 @@
-setwd("~/Desktop/data_viz/hw3/test")
+#setwd("~/Desktop/data_viz/hw3/test")
 
 packages <- c('shiny', 'ggvis', 'GGally', 'ggplot2', 'sqldf')
 new.packages <- packages[!(packages %in% installed.packages()[,"Package"])]
